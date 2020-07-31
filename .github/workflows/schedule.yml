@@ -1,0 +1,15 @@
+name: Update gist with Discord Bot Stats
+on:
+  schedule:
+    - cron: "* * * *"
+jobs: 
+  update-gist:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@master
+      - name: Update gist
+      uses: Milo123459/discord-box@master
+      env:
+        GIST_ID: GIST_ID GOES HERE
+        GH_TOKEN: {{secrets.GH_TOKEN}}
+        BOT_TOKEN: {{secrets.BOT_TOKEN}}
