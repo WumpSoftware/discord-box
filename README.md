@@ -7,7 +7,7 @@ B) Create a new public gist [here](https://gist.github.com)
 # Project setup
 A) Fork this repo<br>
 B) Go to the **actions** tab and click **enable**<br>
-C) Go into your forked repo and go into the file: **./github/workflows/schedule.yml**
+C) Go into your forked repo and go into the file: **./github/workflows/schedule.yml**<br>
 D) Once in the schedule file, edit the **GIST_ID** section in the **env** section of the file. It should be something like: gist.github.com/[your name here]/this is the id.<br>
 E) Go into your forked repo and find the settings tab, then find the secrets tab.<br>
 F) Add 2 secrets:
