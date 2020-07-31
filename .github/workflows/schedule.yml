@@ -10,6 +10,6 @@ jobs:
       - name: Update gist
       uses: Milo123459/discord-box@master
       env:
-        GIST_ID: GIST_ID GOES HERE
+        GIST_ID: 4072e97b31c461c259ae1a5f8cb63009
         GH_TOKEN: {{secrets.GH_TOKEN}}
         BOT_TOKEN: {{secrets.BOT_TOKEN}}
